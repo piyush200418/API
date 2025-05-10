@@ -1,0 +1,17 @@
+groups:
+  - name: api-server-alerts
+    rules:
+      - alert: HighApiErrorRate
+        expr: |
+          sum(rate(http_requests_total{job="api-server", code=~"5.."}[2m]))
+          /
+          sum(rate(http_requests_total{job="api-server"}[2m]))
+          > 0.05
+        for: 1m
+        labels:
+          severity: 'warning'
+          service: 'api'
+        annotations:
+          summary: "High API Server Error Rate (Job: {{ $labels.job }})"
+          description: "More than 5% of requests to the '{{ $labels.job }}' job resulted in a 5xx error over the last 2 minutes. Current value: {{ $value | printf `%.2f%%` }}"
+          value: "{{ $value | printf `%.2f%%` }}"

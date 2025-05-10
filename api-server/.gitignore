@@ -1,0 +1,24 @@
+# VS Code
+.vscode/
+*.code-workspace
+
+# Node.js
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Ignoredata
+# data/chunks_head/
+# data/wal/
+# data/lock
+# data/nflog
+# data/queries.active
+# data/silences
+
+# Ignore all data folder contents
+data/
+
+
+# OS generated files
+.DS_Store
+Thumbs.db
