@@ -241,45 +241,39 @@ The `server.js` in this project exposes several key metrics for monitoring:
 ## Example Dashboards & Alerts
 
 ### 1. HTTP Request Rate (Requests per minute)
-
-**Insight:** Displays the per-minute average rate of incoming requests, broken down by API route and HTTP method. Helps identify the busiest endpoints, detect traffic surges or drops, and understand usage patterns.
+Displays the per-minute average rate of incoming requests, broken down by API route and HTTP method. Helps identify the busiest endpoints, detect traffic surges or drops, and understand usage patterns.
 
 ![HTTP Request Rate](Images/http_request_rate.png)
 
 
 ### 2. P95 Request Latency by Route
-
-**Insight:** Shows the 95th percentile latency (the time within which 95% of requests completed) for each route. Crucial for understanding worst-case performance experienced by users and identifying slow endpoints needing optimization. Unit set to seconds.
+Shows the 95th percentile latency (the time within which 95% of requests completed) for each route. Crucial for understanding worst-case performance experienced by users and identifying slow endpoints needing optimization. Unit set to seconds.
 
 ![P95 Request Latency](Images/p95_latency.png)
 
 
 ### 3. Server Error Rate (5xx) by Route
-
-**Insight:** Tracks the rate of server-side errors (HTTP status codes 500-599) per route. Essential for quickly detecting backend problems affecting specific API functionalities.
+Tracks the rate of server-side errors (HTTP status codes 500-599) per route. Essential for quickly detecting backend problems affecting specific API functionalities.
 
 ![Server Error Rate](Images/server_error_rate.png)
 
 
 ### 4. Total Requests (Last Hour)
-
-**Insight:** Provides a single statistic showing the total number of requests received over the selected period (e.g., last hour). Useful for a high-level overview of application load.
+Provides a single statistic showing the total number of requests received over the selected period (e.g., last hour). Useful for a high-level overview of application load.
 
 ![Total Requests](Images/total_requests.png)
 
 
 ### 5. Top 5 Routes (Last Hour)
-
-**Insight:** Identifies the most frequently requested API routes over the selected period. Helps focus optimization efforts and understand which parts of the API are most used.
+Identifies the most frequently requested API routes over the selected period. Helps focus optimization efforts and understand which parts of the API are most used.
 
 ![Top 5 Routes](Images/top_5_routes.png)
 
 
 ### 6. Request Status Codes (Last Hour)
+Visualizes the distribution of HTTP status codes (2xx, 4xx, 5xx) across all requests. Provides a quick health check – a large slice of 5xx or 4xx codes indicates widespread issues.
 
-**Insight:** Visualizes the distribution of HTTP status codes (2xx, 4xx, 5xx) across all requests. Provides a quick health check – a large slice of 5xx or 4xx codes indicates widespread issues.
-
-![Request Status Codes](Images\http_status_codes.png)
+![Request Status Codes](Images/http_status_codes.png)
 
 ## Future Enhancements
 
