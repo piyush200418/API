@@ -220,9 +220,8 @@ This script is designed to hit various endpoints, including `/intentional-error`
 **Alert Firing Example:**
 
 The `HighApiErrorRate` alert is configured in `alert.rules.yml` and managed by Alertmanager. It is designed to fire if more than 5% of requests to the API result in a 5xx (server-side) error over a 2-minute period, for a sustained duration of at least 1 minute. This can be tested by repeatedly hitting the `/intentional-error` endpoint.
-*Caption: The `HighApiErrorRate` alert shown as 'FIRING' in the Prometheus or Alertmanager UI after intentionally triggering server errors.*
+*The `HighApiErrorRate` alert shown as 'FIRING' in the Prometheus or Alertmanager UI after intentionally triggering server errors.*
 
----
 ---
 
 ## Key Metrics Exposed
