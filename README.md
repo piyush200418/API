@@ -279,7 +279,7 @@ The `server.js` in this project exposes several key metrics for monitoring:
 
 **Insight:** Visualizes the distribution of HTTP status codes (2xx, 4xx, 5xx) across all requests. Provides a quick health check – a large slice of 5xx or 4xx codes indicates widespread issues.
 
-![Request Status Codes](Images\http_status_code.png)
+![Request Status Codes](Images\http_status_codes.png)
 
 ## Future Enhancements
 
