@@ -81,12 +81,15 @@ The project is organized as follows:
         *   **`package.json`**: Defines project metadata, dependencies, and scripts.
         *   **`prometheus.yml`**: Configuration file for Prometheus.
         *   **`server.js`**: The main Node.js Express application file containing the API logic and metrics instrumentation.
-    *   **`assets/`**: (Optional) For storing static assets like images for the README.
-        *   **`images/`**: Subdirectory for images.
-            *   `grafana_dashboard_overview.png` (Example placeholder)
-            *   `alert_firing.png` (Example placeholder)
-    *   **`generate_electronics_traffic.sh`**: (Example) Bash script to generate varied load against the API for testing.
-    *   **`README.md`**: This file, providing an overview and instructions for the project.
+* **`Images/`:** Contains image files used within the project documentation or other relevant contexts.
+    * `http_request_rate.png`
+    * `http_status_codes.png`
+    * `p95_latency.png`
+    * `server_error_rate.png`
+    * `top_5_routes.png`
+    * `total_requests.png`
+*   **`generate_electronics_traffic.sh`**: Bash script to generate varied load against the API for testing.
+*   **`README.md`**: This file, providing an overview and instructions for the project.
 
 ---
 
