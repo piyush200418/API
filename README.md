@@ -309,5 +309,3 @@ Contributions, issues, and feature requests are welcome!
 ## Contact
 
 Harsh Deep - [LinkedIn](https://www.linkedin.com/in/harshdeep7199/) - [Email](harshdeep7199@gmail.com)
-
-Project Link: [https://github.com/TheDeepDelve/API-Server](https://github.com/TheDeepDelve/API-Server)
