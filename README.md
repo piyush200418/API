@@ -308,4 +308,4 @@ Contributions, issues, and feature requests are welcome!
 
 ## Contact
 
-Harsh Deep - [LinkedIn](https://www.linkedin.com/in/harshdeep7199/) - [Email](harshdeep7199@gmail.com)
+Piyush Verma - [LinkedIn](https://www.linkedin.com/in/piyush-verma/) - [Email](piyushverma1882@gmail.com)
