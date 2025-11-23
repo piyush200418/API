@@ -2,6 +2,8 @@
 const express = require('express');
 const promClient = require('prom-client');
 
+// Application entry point
+
 // Initialize the Express application
 const app = express();
 const PORT = process.env.PORT || 5000;
