@@ -3,11 +3,11 @@
 A comprehensive development of a Node.js API server for a mock electronics store, complete with a full DevOps monitoring and alerting stack using Prometheus, Grafana, and Alertmanager.
 
 This project showcases:
-*   Custom API development with Node.js and Express.js
-*   Instrumentation of an application to expose custom metrics using `prom-client`
-*   Configuration and operation of Prometheus for metrics scraping and storage
-*   Creation of insightful dashboards in Grafana for real-time visualization
-*   Implementation of alert rules in Prometheus and handling by Alertmanager
+*   Custom API development with Node.js and Express.js.
+*   Instrumentation of an application to expose custom metrics using `prom-client`.
+*   Configuration and operation of Prometheus for metrics scraping and storage.
+*   Creation of insightful dashboards in Grafana for real-time visualization.
+*   Implementation of alert rules in Prometheus and handling by Alertmanager.
 
 ---
 
