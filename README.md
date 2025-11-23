@@ -36,9 +36,9 @@ This project showcases:
 ## Features
 
 *   **Electronics Store API:**
-    *   Endpoints for managing customers and products (GET, POST)
-    *   Endpoints simulating e-commerce actions: viewing product details, adding to cart, placing orders
-    *   In-memory data storage for simplicity
+    *   Endpoints for managing customers and products (GET, POST).
+    *   Endpoints simulating e-commerce actions: viewing product details, adding to cart, placing orders.
+    *   In-memory data storage for simplicity.
 *   **Metrics Instrumentation:**
     *   Standard HTTP metrics (request count, latency, error codes).
     *   Custom e-commerce specific metrics (product views, items added to cart, orders placed, inventory levels).
